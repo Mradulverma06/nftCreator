@@ -19,7 +19,7 @@ Contract Details
 Data Structures
 
 - DigiNft: Represents the NFT with its ID, owner, and IPFS metadata.
-- Mapnft: Enum to handle NFT storage with the `DigiNft` variant.
+- Mapnft: Enum to handle NFT storage with the DigiNft variant.
 - COUNT: A symbol used to keep track of the total number of NFTs created.
 
 Functions
@@ -33,7 +33,7 @@ Functions
 
 - getnft(env: Env, id: u64) -> DigiNft
   - **Parameters**:
-    - `id`: The ID of the NFT to retrieve.
-  - **Returns**: The `DigiNft` instance associated with the given ID.
-  - **Description**: Fetches the NFT details from the blockchain. If the NFT does not exist, it returns a default `DigiNft` with "Invalid" values.
+    - id: The ID of the NFT to retrieve.
+  - **Returns**: The DigiNft instance associated with the given ID.
+  - **Description**: Fetches the NFT details from the blockchain. If the NFT does not exist, it returns a default DigiNft with "Invalid" values.
 
