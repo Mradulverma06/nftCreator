@@ -4,7 +4,7 @@ This project implements a simple NFT (Non-Fungible Token) creator contract using
 
 Overview
 
-The `Nftcreator` contract provides two main functions:
+The 'Nftcreator' contract provides two main functions:
 
 1. `createnft`: Creates a new NFT with the specified owner and IPFS metadata.
 2. `getnft`: Retrieves the details of an NFT by its unique identifier.
